@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "123456789012345678",
+        "smallImageText": "Helios Launcher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://github.com/dscalzi/HeliosLauncher/releases.atom",
+    "servers": [
+        {
+            "id": "meu-servidor-1.20.1",
+            "name": "Meu Modpack 1.20.1",
+            "description": "Servidor de testes criado pelo Dev Maelz.",
+            "icon": "https://cdn-icons-png.flaticon.com/512/124/124092.png",
+            "version": "1.0.0",
+            "address": "localhost",
+            "minecraftVersion": "1.20.1",
+            "mainServer": true,
+            "autoconnect": false,
+            "javaOptions": {
+                "suggestedMajor": 17,
+                "supported": ">=17"
+            },
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.20.1-47.2.0",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "ignore",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-installer.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
