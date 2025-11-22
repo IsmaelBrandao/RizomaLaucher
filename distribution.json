@@ -1,11 +1,7 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
+  "rss": "https://github.com/dscalzi/HeliosLauncher/releases.atom",
+  "discord": null,
   "servers": [
     {
       "id": "MeuModpack-1.20.1",
@@ -22,6 +18,10 @@
       },
       "mainServer": false,
       "autoconnect": false,
+      "javaOptions": {
+      "suggestedMajor": 17,
+      "supported": ">=17"
+      },
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
