@@ -511,6 +511,10 @@ class ProcessBuilder {
                             break
                         case 'user_type':
                             val = this.authUser.type === 'microsoft' ? 'msa' : 'mojang'
+                            // Garante que offline também seja tratado como mojang
+                            if (this.authUser.type === 'offline') {
+                                val = 'mojang'
+                            }
                             break
                         case 'version_type':
                             val = this.vanillaManifest.type
@@ -595,6 +599,10 @@ class ProcessBuilder {
                         break
                     case 'user_type':
                         val = this.authUser.type === 'microsoft' ? 'msa' : 'mojang'
+                        // Garante que offline também seja tratado como mojang
+                        if (this.authUser.type === 'offline') {
+                            val = 'mojang'
+                        }
                         break
                     case 'user_properties': // 1.8.9 and below.
                         val = '{}'

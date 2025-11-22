@@ -1,7 +1,9 @@
+//configmanager.js
 const fs   = require('fs-extra')
 const { LoggerUtil } = require('helios-core')
 const os   = require('os')
 const path = require('path')
+const crypto = require('crypto') // <--- ADICIONADO
 
 const logger = LoggerUtil.getLogger('ConfigManager')
 
@@ -402,6 +404,28 @@ exports.addMicrosoftAuthAccount = function(uuid, accessToken, name, mcExpires, m
 }
 
 /**
+ * Adiciona uma conta offline ao banco de dados.
+ * Gera um UUID offline compatível com servidores (Version 3 UUID).
+ */
+exports.addOfflineAuthAccount = function(username, displayName){
+    // Gera um UUID baseado no nome (padrão do Minecraft Offline)
+    const md5 = crypto.createHash('md5').update('OfflinePlayer:' + username).digest();
+    md5[6] = (md5[6] & 0x0f) | 0x30; // Define a versão 3
+    md5[8] = (md5[8] & 0x3f) | 0x80; // Define a variante 10
+    const uuid = md5.toString('hex').replace(/(\w{8})(\w{4})(\w{4})(\w{4})(\w{12})/, '$1-$2-$3-$4-$5');
+
+    config.selectedAccount = uuid
+    config.authenticationDatabase[uuid] = {
+        type: 'offline',
+        accessToken: 'access_token',
+        username: username.trim(),
+        uuid: uuid.trim(),
+        displayName: displayName.trim()
+    }
+    return config.authenticationDatabase[uuid]
+}
+
+/**
  * Remove an authenticated account from the database. If the account
  * was also the selected account, a new one will be selected. If there
  * are no accounts, the selected account will be null.
@@ -577,7 +601,7 @@ exports.getMinRAM = function(serverid){
  * @param {string} serverid The server id.
  * @param {string} minRAM The new minimum amount of memory for JVM initialization.
  */
-exports.setMinRAM = function(serverid, minRAM){
+exports.setMinRAM = function(serverid){
     config.javaConfig[serverid].minRAM = minRAM
 }
 

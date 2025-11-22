@@ -134,10 +134,6 @@ function mojangErrorDisplayable(errorCode) {
  * Add a Mojang account. This will authenticate the given credentials with Mojang's
  * authserver. The resultant data will be stored as an auth account in the
  * configuration database.
- * 
- * @param {string} username The account username (email if migrated).
- * @param {string} password The account password.
- * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
  */
 exports.addMojangAccount = async function(username, password) {
     try {
@@ -167,18 +163,28 @@ exports.addMojangAccount = async function(username, password) {
     }
 }
 
+/**
+ * Adiciona uma conta offline.
+ * Isso não valida com nenhum servidor e apenas cria a conta localmente.
+ */
+exports.addOfflineAccount = async function(username) {
+    try {
+        const ret = ConfigManager.addOfflineAuthAccount(username, username)
+        ConfigManager.save()
+        return ret
+    } catch (err){
+        log.error(err)
+        return Promise.reject({
+            title: 'Erro no Login Offline',
+            desc: err.message || 'Não foi possível criar a conta offline.'
+        })
+    }
+}
+
 const AUTH_MODE = { FULL: 0, MS_REFRESH: 1, MC_REFRESH: 2 }
 
 /**
  * Perform the full MS Auth flow in a given mode.
- * 
- * AUTH_MODE.FULL = Full authorization for a new account.
- * AUTH_MODE.MS_REFRESH = Full refresh authorization.
- * AUTH_MODE.MC_REFRESH = Refresh of the MC token, reusing the MS token.
- * 
- * @param {string} entryCode FULL-AuthCode. MS_REFRESH=refreshToken, MC_REFRESH=accessToken
- * @param {*} authMode The auth mode.
- * @returns An object with all auth data. AccessToken object will be null when mode is MC_REFRESH.
  */
 async function fullMicrosoftAuthFlow(entryCode, authMode) {
     try {
@@ -227,29 +233,19 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
 }
 
 /**
- * Calculate the expiry date. Advance the expiry time by 10 seconds
- * to reduce the liklihood of working with an expired token.
- * 
- * @param {number} nowMs Current time milliseconds.
- * @param {number} epiresInS Expires in (seconds)
- * @returns 
+ * Calculate the expiry date.
  */
 function calculateExpiryDate(nowMs, epiresInS) {
     return nowMs + ((epiresInS-10)*1000)
 }
 
 /**
- * Add a Microsoft account. This will pass the provided auth code to Mojang's OAuth2.0 flow.
- * The resultant data will be stored as an auth account in the configuration database.
- * 
- * @param {string} authCode The authCode obtained from microsoft.
- * @returns {Promise.<Object>} Promise which resolves the resolved authenticated account object.
+ * Add a Microsoft account.
  */
 exports.addMicrosoftAccount = async function(authCode) {
 
     const fullAuth = await fullMicrosoftAuthFlow(authCode, AUTH_MODE.FULL)
 
-    // Advance expiry by 10 seconds to avoid close calls.
     const now = new Date().getTime()
 
     const ret = ConfigManager.addMicrosoftAuthAccount(
@@ -267,11 +263,7 @@ exports.addMicrosoftAccount = async function(authCode) {
 }
 
 /**
- * Remove a Mojang account. This will invalidate the access token associated
- * with the account and then remove it from the database.
- * 
- * @param {string} uuid The UUID of the account to be removed.
- * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
+ * Remove a Mojang account.
  */
 exports.removeMojangAccount = async function(uuid){
     try {
@@ -292,11 +284,22 @@ exports.removeMojangAccount = async function(uuid){
 }
 
 /**
- * Remove a Microsoft account. It is expected that the caller will invoke the OAuth logout
- * through the ipc renderer.
- * 
- * @param {string} uuid The UUID of the account to be removed.
- * @returns {Promise.<void>} Promise which resolves to void when the action is complete.
+ * Remove uma conta Offline. Apenas deleta do banco de dados local,
+ * já que não existe servidor para invalidar o token.
+ */
+exports.removeOfflineAccount = async function(uuid){
+    try {
+        ConfigManager.removeAuthAccount(uuid)
+        ConfigManager.save()
+        return Promise.resolve()
+    } catch (err){
+        log.error('Erro ao remover conta offline', err)
+        return Promise.reject(err)
+    }
+}
+
+/**
+ * Remove a Microsoft account.
  */
 exports.removeMicrosoftAccount = async function(uuid){
     try {
@@ -309,14 +312,6 @@ exports.removeMicrosoftAccount = async function(uuid){
     }
 }
 
-/**
- * Validate the selected account with Mojang's authserver. If the account is not valid,
- * we will attempt to refresh the access token and update that value. If that fails, a
- * new login will be required.
- * 
- * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
- * otherwise false.
- */
 async function validateSelectedMojangAccount(){
     const current = ConfigManager.getSelectedAccount()
     const response = await MojangRestAPI.validate(current.accessToken, ConfigManager.getClientToken())
@@ -330,28 +325,15 @@ async function validateSelectedMojangAccount(){
                 ConfigManager.updateMojangAuthAccount(current.uuid, session.accessToken)
                 ConfigManager.save()
             } else {
-                log.error('Error while validating selected profile:', refreshResponse.error)
-                log.info('Account access token is invalid.')
                 return false
             }
-            log.info('Account access token validated.')
             return true
         } else {
-            log.info('Account access token validated.')
             return true
         }
     }
-    
 }
 
-/**
- * Validate the selected account with Microsoft's authserver. If the account is not valid,
- * we will attempt to refresh the access token and update that value. If that fails, a
- * new login will be required.
- * 
- * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
- * otherwise false.
- */
 async function validateSelectedMicrosoftAccount(){
     const current = ConfigManager.getSelectedAccount()
     const now = new Date().getTime()
@@ -362,13 +344,10 @@ async function validateSelectedMicrosoftAccount(){
         return true
     }
 
-    // MC token expired. Check MS token.
-
     const msExpiresAt = current.microsoft.expires_at
     const msExpired = now >= msExpiresAt
 
     if(msExpired) {
-        // MS expired, do full refresh.
         try {
             const res = await fullMicrosoftAuthFlow(current.microsoft.refresh_token, AUTH_MODE.MS_REFRESH)
 
@@ -386,7 +365,6 @@ async function validateSelectedMicrosoftAccount(){
             return false
         }
     } else {
-        // Only MC expired, use existing MS token.
         try {
             const res = await fullMicrosoftAuthFlow(current.microsoft.access_token, AUTH_MODE.MC_REFRESH)
 
@@ -409,17 +387,18 @@ async function validateSelectedMicrosoftAccount(){
 
 /**
  * Validate the selected auth account.
- * 
- * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
- * otherwise false.
+ * OFFLINE accounts are always valid.
  */
 exports.validateSelected = async function(){
     const current = ConfigManager.getSelectedAccount()
 
+    if (!current) return false
+
     if(current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
+    } else if(current.type === 'offline') {
+        return true
     } else {
         return await validateSelectedMojangAccount()
     }
-    
 }

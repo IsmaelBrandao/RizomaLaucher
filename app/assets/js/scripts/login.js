@@ -17,10 +17,41 @@ const checkmarkContainer    = document.getElementById('checkmarkContainer')
 const loginRememberOption   = document.getElementById('loginRememberOption')
 const loginButton           = document.getElementById('loginButton')
 const loginForm             = document.getElementById('loginForm')
+const loginSubheader        = document.getElementById('loginSubheader')
 
 // Control variables.
 let lu = false, lp = false
 
+// ===============================
+// NOVO: Controle do modo offline
+// ===============================
+let isOfflineMode = false
+
+window.loginSetupOffline = function(isOffline) {
+    isOfflineMode = isOffline
+    const passwordContainer = loginPassword.parentElement
+
+    if (isOffline) {
+        // 1. Esconde senha
+        passwordContainer.style.display = 'none'
+        // 2. Muda subtítulo
+        loginSubheader.innerHTML = 'Login Offline'
+        // 3. Muda o texto do botão
+        loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.login'), 'Jogar Offline')
+        // 4. Diz que "senha está válida"
+        lp = true
+        // 5. Revalida para habilitar botão
+        validateEmail(loginUsername.value)
+
+    } else {
+        passwordContainer.style.display = 'flex'
+        loginSubheader.innerHTML = Lang.queryJS('login.loginSubheader')
+        loginButton.innerHTML = loginButton.innerHTML.replace('Jogar Offline', Lang.queryJS('login.login'))
+        loginPassword.value = ''
+        lp = false
+        validatePassword('')
+    }
+}
 
 /**
  * Show a login error.
@@ -77,6 +108,14 @@ function validateEmail(value){
  * @param {string} value The password value.
  */
 function validatePassword(value){
+    if(isOfflineMode){
+        // No modo offline não existe senha
+        loginPasswordError.style.opacity = 0
+        lp = true
+        if(lu) loginDisabled(false)
+        return
+    }
+
     if(value){
         loginPasswordError.style.opacity = 0
         lp = true
@@ -179,28 +218,35 @@ loginCancelButton.onclick = (e) => {
 // Disable default form behavior.
 loginForm.onsubmit = () => { return false }
 
-// Bind login button behavior.
+// ===============================
+// LOGIN: Mojang ou Offline
+// ===============================
 loginButton.addEventListener('click', () => {
+
     // Disable form.
     formDisabled(true)
 
     // Show loading stuff.
     loginLoading(true)
 
-    AuthManager.addMojangAccount(loginUsername.value, loginPassword.value).then((value) => {
+    // Define qual tipo de login usar
+    const loginPromise = isOfflineMode
+        ? AuthManager.addOfflineAccount(loginUsername.value)
+        : AuthManager.addMojangAccount(loginUsername.value, loginPassword.value)
+
+    loginPromise.then((value) => {
         updateSelectedAccount(value)
         loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
         $('.circle-loader').toggleClass('load-complete')
         $('.checkmark').toggle()
         setTimeout(() => {
             switchView(VIEWS.login, loginViewOnSuccess, 500, 500, async () => {
-                // Temporary workaround
                 if(loginViewOnSuccess === VIEWS.settings){
                     await prepareSettings()
                 }
-                loginViewOnSuccess = VIEWS.landing // Reset this for good measure.
-                loginCancelEnabled(false) // Reset this for good measure.
-                loginViewCancelHandler = null // Reset this for good measure.
+                loginViewOnSuccess = VIEWS.landing
+                loginCancelEnabled(false)
+                loginViewCancelHandler = null
                 loginUsername.value = ''
                 loginPassword.value = ''
                 $('.circle-loader').toggleClass('load-complete')
@@ -218,7 +264,6 @@ loginButton.addEventListener('click', () => {
             msftLoginLogger.error('Error while logging in.', displayableError)
             actualDisplayableError = displayableError
         } else {
-            // Uh oh.
             msftLoginLogger.error('Unhandled error during login.', displayableError)
             actualDisplayableError = Lang.queryJS('login.error.unknown')
         }

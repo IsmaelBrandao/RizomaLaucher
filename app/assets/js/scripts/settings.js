@@ -331,7 +331,11 @@ function fullSettingsSave() {
 
 /* Closes the settings view and saves all data. */
 settingsNavDone.onclick = () => {
-    fullSettingsSave()
+    try {
+        fullSettingsSave()
+    } catch (err) {
+        console.error("Erro ao salvar configurações:", err)
+    }
     switchView(getCurrentView(), VIEWS.landing)
 }
 
@@ -513,13 +517,25 @@ function processLogOut(val, isLastAccount){
     const uuid = parent.getAttribute('uuid')
     const prevSelAcc = ConfigManager.getSelectedAccount()
     const targetAcc = ConfigManager.getAuthAccount(uuid)
+    
     if(targetAcc.type === 'microsoft') {
         msAccDomElementCache = parent
         switchView(getCurrentView(), VIEWS.waiting, 500, 500, () => {
             ipcRenderer.send(MSFT_OPCODE.OPEN_LOGOUT, uuid, isLastAccount)
         })
     } else {
-        AuthManager.removeMojangAccount(uuid).then(() => {
+        // Determina qual função de remoção usar
+        let removePromise
+        if(targetAcc.type === 'offline') {
+            // Remove conta offline
+            removePromise = AuthManager.removeOfflineAccount(uuid)
+        } else {
+            // Remove conta Mojang
+            removePromise = AuthManager.removeMojangAccount(uuid)
+        }
+        
+        // Executa a remoção
+        removePromise.then(() => {
             if(!isLastAccount && uuid === prevSelAcc.uuid){
                 const selAcc = ConfigManager.getSelectedAccount()
                 refreshAuthAccountSelected(selAcc.uuid)
@@ -533,6 +549,7 @@ function processLogOut(val, isLastAccount){
                 switchView(getCurrentView(), VIEWS.loginOptions)
             }
         })
+        
         $(parent).fadeOut(250, () => {
             parent.remove()
         })
