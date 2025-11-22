@@ -1,0 +1,3164 @@
+{
+  "version": "1.0.0",
+  "rss": "https://ismaelbrandao.github.io/RizomaLaucher/distribution.json",
+  "discord": null,
+  "servers": [
+    {
+      "id": "MeuModpack-1.20.1",
+      "name": "Rizoma Modpack",
+      "description": "Rizoma Modpack Minecraft 1.20.1",
+      "icon": "https://cdn-icons-png.flaticon.com/512/124/124092.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": null,
+      "mainServer": false,
+      "autoconnect": false,
+      "javaOptions": {
+      "suggestedMajor": 17,
+      "supported": ">=17"
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.autovw:advancednetherite:2.1.3@jar",
+          "name": "Advanced Netherite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522473,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/advancednetherite-forge-2.1.3-1.20.1.jar",
+            "MD5": "f45134182cb6322895b92b1a7d506029"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 208850,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/AdvancementPlaques-1.20.1-forge-1.6.9.jar",
+            "MD5": "508c73f2941ae3d48cbf197ba390ecdd"
+          }
+        },
+        {
+          "id": "de.mari_023:ae2wtlib:15.3.0-forge@jar",
+          "name": "AE2WTLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227891,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ae2wtlib-15.3.0-forge.jar",
+            "MD5": "fded4f093acdc40d8d81d73baac29034"
+          }
+        },
+        {
+          "id": "de.melanx:aiotbotania:1.20.1-4.0.6@jar",
+          "name": "AIOT Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196680,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/aiotbotania-1.20.1-4.0.6.jar",
+            "MD5": "cdb8a114497a5dc9b11302ab0af8a572"
+          }
+        },
+        {
+          "id": "me.itzme1on:alcocraftplus:2.1.0@jar",
+          "name": "AlcoCraft+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 280211,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/alcocraftplus-1.20-2.1.0-forge.jar",
+            "MD5": "8da6a2bfe1c143d0956ea2a52a3c5d48"
+          }
+        },
+        {
+          "id": "com.frikinjay:almanac:1.0.2@jar",
+          "name": "Almanac",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15906,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/almanac-1.20.x-forge-1.0.2.jar",
+            "MD5": "20f9b054f4caceebda02847c149901af"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.11@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51722248,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+            "MD5": "78270b771d833d9f2936a2bd95a7ec21"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.20-2.2.3@jar",
+          "name": "Amendments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1293221,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/amendments-1.20-2.2.3.jar",
+            "MD5": "b3ec084bc7ebd6bed6729d9eb321668f"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:attributeslib:1.3.7@jar",
+          "name": "Apothic Attributes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227511,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ApothicAttributes-1.20.1-1.3.7.jar",
+            "MD5": "d4f8d1945416d5150cd67d27469b5ce9"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "me.ramidzkh.mekae2:appmek:1.4.2@jar",
+          "name": "Applied Mekanistics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178447,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Applied-Mekanistics-1.4.2.jar",
+            "MD5": "028247f964ad4a74f7851bd7ae8d6602"
+          }
+        },
+        {
+          "id": "appeng.core:ae2:15.4.8@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8423946,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/appliedenergistics2-forge-15.4.8.jar",
+            "MD5": "e28849db78ba5ec3c9e5776e6c43a2ba"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.4-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5893274,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.2.4-beta.jar",
+            "MD5": "cb21ad7edc7bf2552618797d7a76a1d3"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.5.16@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 850457,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/artifacts-forge-9.5.16.jar",
+            "MD5": "85081468e7498005f5dfdab2ae520097"
+          }
+        },
+        {
+          "id": "earth.terrarium:athena:3.1.2@jar",
+          "name": "Athena",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91808,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/athena-forge-1.20.1-3.1.2.jar",
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
+          }
+        },
+        {
+          "id": "lol.bai.badpackets.impl:badpackets:0.4.3@jar",
+          "name": "Bad Packets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27919,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/badpackets-forge-0.4.3.jar",
+            "MD5": "4ac6c52d62eadf03c64df02ee74f42b5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.36@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 590483,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.36-all.jar",
+            "MD5": "49a2cf9866753311a84c213893b63e4e"
+          }
+        },
+        {
+          "id": "com.vladmarica:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15889,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/BetterPingDisplay-1.20.1-1.1.jar",
+            "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
+          }
+        },
+        {
+          "id": "io.socol:betterthirdperson:1.9.0@jar",
+          "name": "Better Third Person",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61525,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+            "MD5": "298625b2f4567069bcfbea3dceba294d"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:1.20.1-450-FORGE@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12195508,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Botania-1.20.1-450-FORGE.jar",
+            "MD5": "f4ce35424e81996520657abf504d714a"
+          }
+        },
+        {
+          "id": "com.brandon3055:brandonscore:3.2.1.302@jar",
+          "name": "Brandon's Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1358270,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+            "MD5": "eab7f3e470ed31562bd3c6abb0fda6ce"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40125,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/caelus-forge-3.2.0+1.20.1.jar",
+            "MD5": "e37854c44b1849b753afc4a205f31b46"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.22@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 717672,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/chat_heads-0.13.22-forge-1.20.jar",
+            "MD5": "696d8cbeedf4c12c82b0caec71267fca"
+          }
+        },
+        {
+          "id": "codechicken.chunkloader:chickenchunks:2.10.0.100@jar",
+          "name": "ChickenChunks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112603,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ChickenChunks-1.20.1-2.10.0.100-universal.jar",
+            "MD5": "59045960b3a77b2a66c4557a9c424cc2"
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:3.0.7@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15060263,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/chipped-forge-1.20.1-3.0.7.jar",
+            "MD5": "c6c76e78805b357757bf47b04c7286e7"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:4.4.0.516@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1472390,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+            "MD5": "5c2f4b34587c6596d1d50e5bf76ee448"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:11.0.2@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1509649,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/cofh_core-1.20.1-11.0.2.56.jar",
+            "MD5": "8d5ecdae594951c49899b6bf38b41b7d"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:comforts:6.4.0+1.20.1@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382083,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
+            "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
+          }
+        },
+        {
+          "id": "org.cyclops:commoncapabilities:2.9.10@jar",
+          "name": "CommonCapabilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 251615,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CommonCapabilities-1.20.1-2.9.10.jar",
+            "MD5": "f6446e5a0df8eebe56cb1eab114ca7fd"
+          }
+        },
+        {
+          "id": "com.connectivity:connectivity:1.20.1-7.2@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112268,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/connectivity-1.20.1-7.2.jar",
+            "MD5": "b18f084c146f9725fe85f6a2fb869721"
+          }
+        },
+        {
+          "id": "generated.forgemod:connector:1.0.0-beta.46+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043384,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Connector-1.0.0-beta.46+1.20.1.jar",
+            "MD5": "3c07e0a25c1921da7586c0290c72ba86"
+          }
+        },
+        {
+          "id": "thetadev.constructionwand:constructionwand:1.20.1-2.11@jar",
+          "name": "Construction Wand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210312,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/constructionwand-1.20.1-2.11.jar",
+            "MD5": "e17b0f6b4fa378d6750a9030a5aca9e0"
+          }
+        },
+        {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:16.0.14@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 837805,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.14.jar",
+            "MD5": "04c636ea8b13b821233d60104bf7dee4"
+          }
+        },
+        {
+          "id": "corgitaco.corgilib:corgilib:4.0.3.4@jar",
+          "name": "CorgiLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 360700,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Corgilib-Forge-1.20.1-4.0.3.4.jar",
+            "MD5": "a9ea019fc3f069f5f47f0d8451dac4cd"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:14.0.59@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3269064,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CraftTweaker-forge-1.20.1-14.0.59.jar",
+            "MD5": "2e2577ead9fee83f2260008d5c98babb"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:2.1.5@jar",
+          "name": "CraterLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2011855,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CraterLib-Forge-1.20-2.1.5.jar",
+            "MD5": "990c6cbaab8ab67a62214ec673f9d58d"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.32@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158417,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "MD5": "7aabe100af362d0df92d8ea1dbc2667b"
+          }
+        },
+        {
+          "id": "com.epherical:croptopia:3.0.4@jar",
+          "name": "Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2099945,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Croptopia-1.20.1-FORGE-3.0.4.jar",
+            "MD5": "c7c4e6f0ff51507ad64544991dfc7454"
+          }
+        },
+        {
+          "id": "com.blakebr0:cucumber:7.0.15@jar",
+          "name": "Cucumber Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269566,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Cucumber-1.20.1-7.0.15.jar",
+            "MD5": "84949e197a71b5f20a99532bd082cea6"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.20.1.20250628@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10825438,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CustomNPCs-GBPort-Unofficial-1.20.1.20250628.jar",
+            "MD5": "bb9dd0ecee50405007d70f810c849c77"
+          }
+        },
+        {
+          "id": "org.cyclops:cyclopscore:1.21.2@jar",
+          "name": "Cyclops Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 911906,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/CyclopsCore-1.20.1-1.21.2.jar",
+            "MD5": "d13dd33681c1da77e28a3f145421f704"
+          }
+        },
+        {
+          "id": "com.mars:deimos:2.4@jar",
+          "name": "Deimos",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48294,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/deimos-1.20.1-forge-2.4.jar",
+            "MD5": "1a2038fa66006bf5d833dbfa01cf809b"
+          }
+        },
+        {
+          "id": "toni.distractionfreerecipes:distraction_free_recipes:1.2.1@jar",
+          "name": "Distraction Free Recipes (EMI)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241822,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/distraction_free_recipes-forge-1.2.1-1.20.1.jar",
+            "MD5": "093eb577627f1707e64575b4d767b529"
+          }
+        },
+        {
+          "id": "com.brandon3055:draconicevolution:3.1.2.621@jar",
+          "name": "Draconic Evolution",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5934411,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+            "MD5": "3cc3a649bfe7cebd88b87d5aa9d25a83"
+          }
+        },
+        {
+          "id": "mod.crend:dynamiccrosshair:9.10@jar",
+          "name": "Dynamic Crosshair",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 879924,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/dynamiccrosshair-9.10+1.20.1-forge.jar",
+            "MD5": "1ac0e508f5fe40bd1608ea4cb4b60247"
+          }
+        },
+        {
+          "id": "generated.forgemod:eatinganimation:5.1.0@jar",
+          "name": "Eating Animation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 294792,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/eatinganimation-1.20.1-5.1.0.jar",
+            "MD5": "fed01f18bc67d277e1ae9d4694d18659"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.20.1-1.9.1-forge@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187868,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/elevatorid-1.20.1-1.9.1-forge.jar",
+            "MD5": "b4784b8ae695f179d0aefaaa82018968"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "dev.emi.emi.platform:emi:1.1.22+1.20.1+forge@jar",
+          "name": "EMI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1048567,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/emi-1.1.22+1.20.1+forge.jar",
+            "MD5": "441c582c6e8a1d6fd9e3d16a27c1a39e"
+          }
+        },
+        {
+          "id": "com.enderio:enderio:6.2.15-beta@jar",
+          "name": "Ender IO",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8086926,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/EnderIO-1.20.1-6.2.15-beta-all.jar",
+            "MD5": "286e8d4cfeaf3418a4db66527e1a07c3"
+          }
+        },
+        {
+          "id": "enrc:enderio_recreated:1.0.0@jar",
+          "name": "Ender IO: ReCreated",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12091,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/EnderIOReCreated_1.0.0-forge.jar",
+            "MD5": "a45830202cd6428197466d19093bc06c"
+          }
+        },
+        {
+          "id": "com.epherical:epherolib:0.1.2@jar",
+          "name": "BOZOID",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 756864,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/EpheroLib-1.20.1-FORGE-1.2.0.jar",
+            "MD5": "f8b4d202f3fc4ffaf1bb8efd79f860bd"
+          }
+        },
+        {
+          "id": "com.c2h6s:etstlib:3.0.0-beta.12@jar",
+          "name": "EtSTLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291395,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/etstlib-3.0.0-beta.12.jar",
+            "MD5": "d70ac66c9684c7c32d7399d8dc793398"
+          }
+        },
+        {
+          "id": "io.github.lounode:eventwrapper:1.1.3@jar",
+          "name": "Event Wrapper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1564791,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/eventwrapper-forge-1.20.1-1.1.3.jar",
+            "MD5": "35606fd9b114117bedb6b2c0edfdbd58"
+          }
+        },
+        {
+          "id": "com.ordana:experienced_crops:1.20.1-1.1.0@jar",
+          "name": "Experienced Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11979,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/experienced_crops-1.20.1-1.1.0-forge.jar",
+            "MD5": "2b6b9624dc1b55032a7fff7a656061d6"
+          }
+        },
+        {
+          "id": "com.glodblock.github.extendedae:expatternprovider:1.20-1.4.6-forge@jar",
+          "name": "ExtendedAE",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2671253,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ExtendedAE-1.20-1.4.6-forge.jar",
+            "MD5": "41673090a58d77c138266353e10608f1"
+          }
+        },
+        {
+          "id": "io.github.lounode:extrabotany:1.9.1@jar",
+          "name": "Extra Botany: Reburn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3869296,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/extrabotany-forge-1.20.1-1.9.1.jar",
+            "MD5": "d06848692520d317055ebad0a7ece44b"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.7@jar",
+          "name": "Fast IP Ping",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10557,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/fast-ip-ping-v1.0.7-mc1.20.4-forge.jar",
+            "MD5": "d1e81c87cc785a956f5972a3b0d2e7f2"
+          }
+        },
+        {
+          "id": "net.dnlayu:fastboot:1.2@jar",
+          "name": "FastBoot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24477,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/fastboot-1.20.x-1.2.jar",
+            "MD5": "9489df8d4e141724d79e503d85b3d51f"
+          }
+        },
+        {
+          "id": "net.olafski:fastleafdecay:32@jar",
+          "name": "Fast Leaf Decay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9835,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/FastLeafDecay-32.jar",
+            "MD5": "20df3e3525622d6ea38a243be828ef38"
+          }
+        },
+        {
+          "id": "com.kingcontaria:fastquit:3.0.1+1.20.1forge@jar",
+          "name": "FastQuit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316223,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Fastquit-3.0.1+1.20.1forge.jar",
+            "MD5": "e01bb246e112544060cd0acff48aa232"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "sonar.fluxnetworks:fluxnetworks:7.2.1.15@jar",
+          "name": "Flux Networks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515573,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/FluxNetworks-1.20.1-7.2.1.15.jar",
+            "MD5": "d5584d49027026283310ba3742424128"
+          }
+        },
+        {
+          "id": "gg.chaldea.client.reset.packet:clientresetpacket:0.0.6@jar",
+          "name": "Client Reset Packet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12869,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ForgeClientResetPacket-0.3.1.jar",
+            "MD5": "a5957f3448beeae5a07a4924f7f30e95"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbchunks:2001.3.6@jar",
+          "name": "FTB Chunks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158842,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ftb-chunks-forge-2001.3.6.jar",
+            "MD5": "64af750c0cbcadd4b27fb58236654814"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.10@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 791875,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ftb-library-forge-2001.2.10.jar",
+            "MD5": "ae5292127a5a0d85d793bbce8f1e24dd"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.1@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248592,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ftb-teams-forge-2001.3.1.jar",
+            "MD5": "98efb58ba7cecfb39034544eced0389f"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbxmodcompat:2.1.3@jar",
+          "name": "FTB XMod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129725,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ftb-xmod-compat-forge-2.1.3.jar",
+            "MD5": "6d01bd4bc73c6ce36d0d91c56bb27772"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.11+a@jar",
+          "name": "Fusion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544250,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/fusion-1.2.11a-forge-mc1.20.1.jar",
+            "MD5": "709b729df7478057bc30c15a6091b274"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.2+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2275298,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/fzzy_config-0.7.2+1.20.1+forge.jar",
+            "MD5": "d82c28e78e80f5e2fbbffe4a6fbb7a76"
+          }
+        },
+        {
+          "id": "generated.forgemod:gardenofglass:1.13@jar",
+          "name": "Garden of Glass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21256,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/gardenofglass-1.13.jar",
+            "MD5": "d67a9edd8c1dfc39c3979f070bbcd8ec"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1038979,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
+            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+          }
+        },
+        {
+          "id": "elocindev.geckoanimfix:geckoanimfix:1.0.0@jar",
+          "name": "GeckoLibIrisCompat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6239,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/GeckoLibOculusCompat-Forge-1.0.1.jar",
+            "MD5": "4dd6b749ec2ca69a208a15091530825b"
+          }
+        },
+        {
+          "id": "com.glodblock.github:glodium:1.20-1.5-forge@jar",
+          "name": "Glodium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60550,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Glodium-1.20-1.5-forge.jar",
+            "MD5": "fc1d04ddd88b378780041d5f06d50f8a"
+          }
+        },
+        {
+          "id": "generated.forgemod:gml:4.0.11-all@jar",
+          "name": "Gml",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11125541,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/gml-4.0.11-all.jar",
+            "MD5": "a21fb78c8d565623de7530893bf6f7ca"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7997,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
+            "MD5": "e5028e9da74761f26c00c546c8ebdc4d"
+          }
+        },
+        {
+          "id": "guideme:guideme:20.1.13@jar",
+          "name": "GuideME",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9413127,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/guideme-20.1.13.jar",
+            "MD5": "a199ad6408eb99d710db01f4705a6e73"
+          }
+        },
+        {
+          "id": "org.zeith:hammerlib:20.1.50@jar",
+          "name": "HammerLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2445389,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/HammerLib-1.20.1-20.1.50.jar",
+            "MD5": "19ee8ee34a8708e8edb4bba3428a034f"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:hostilenetworks:5.3.3@jar",
+          "name": "Hostile Neural Networks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273495,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/HostileNeuralNetworks-1.20.1-5.3.3.jar",
+            "MD5": "d72aded068bc4d287620b65eb96d6f91"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.2+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 425140,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.2+1.20.4.jar",
+            "MD5": "a9497bda5f3fd160c248d4a8d4499e15"
+          }
+        },
+        {
+          "id": "toni.immersivearmorhud:immersivearmorhud:1.0.1@jar",
+          "name": "Immersive Armor HUD",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 583612,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/immersivearmorhud-forge-1.0.1-1.20.1.jar",
+            "MD5": "022a7532f2612a2cca91c02b1a36961b"
+          }
+        },
+        {
+          "id": "generated.forgemod:incendium:5.3.5@jar",
+          "name": "Incendium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4638945,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Incendium_1.20.x_v5.3.5.jar",
+            "MD5": "783705058e0b778ca1c80ac5cc8698f6"
+          }
+        },
+        {
+          "id": "com.buuz135.industrial:industrialforegoing:3.5.19@jar",
+          "name": "Industrial Foregoing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4528438,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/industrial-foregoing-1.20.1-3.5.19.jar",
+            "MD5": "61372ce6680f96154a3e1e019d466718"
+          }
+        },
+        {
+          "id": "org.cyclops:integrateddynamics:1.28.1@jar",
+          "name": "IntegratedDynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4148517,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/IntegratedDynamics-1.20.1-1.28.1.jar",
+            "MD5": "62d7bd2b03a36aec7b7c7ac130fab3dd"
+          }
+        },
+        {
+          "id": "tech.thatgravyboat:ironchests:5.0.2@jar",
+          "name": "Iron Chests: Restocked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492203,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ironchests-5.0.2-forge.jar",
+            "MD5": "b8c2836e89d7754987aba3f452502575"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:4.1.6@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 609038,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ironfurnaces-1.20.1-4.1.6.jar",
+            "MD5": "db76ec4beef580f5d7b75065ec2adf9d"
+          }
+        },
+        {
+          "id": "com.blakebr0:ironjetpacks:7.0.9@jar",
+          "name": "Iron Jetpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158967,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/IronJetpacks-1.20.1-7.0.9.jar",
+            "MD5": "dddf9e61a3b3a038af689a9cf7dab22b"
+          }
+        },
+        {
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.4.0.11@jar",
+          "name": "Iron's Spells 'n Spellbooks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8784756,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.4.0.11.jar",
+            "MD5": "772d419fad82558b4c2ed1753c5e07aa"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "snownee.jade.addon:jadeaddons:5.5.0+forge@jar",
+          "name": "Jade Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91771,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/JadeAddons-1.20.1-Forge-5.5.0.jar",
+            "MD5": "3e2fa5d8b2ec994ba416ec4f84d5ea60"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:jeed:1.20-2.2.5@jar",
+          "name": "Just Enough Effects Descriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159288,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/jeed-1.20-2.2.5.jar",
+            "MD5": "6792ef4a197457dcff0b4353e956a94d"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1385600,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809"
+          }
+        },
+        {
+          "id": "com.kreezcraft:jumpoverfences:1.3.1@jar",
+          "name": "Jump Over Fences",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38496,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/jumpoverfences-forge-1.20.1-1.3.1.jar",
+            "MD5": "e212ad298a898ce26a83a904c2fea2f8"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "413f7d427a16254ec8e08f78094a206d"
+          }
+        },
+        {
+          "id": "snownee.kiwi:kiwi:11.9.2+forge@jar",
+          "name": "Kiwi Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1661318,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Kiwi-1.20.1-Forge-11.9.2.jar",
+            "MD5": "65c39f7fdfe43b1e2cebf1ebd7d8d7bd"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:2001.6.5-build.16@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1654660,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/kubejs-forge-2001.6.5-build.16.jar",
+            "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.16@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127993805,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/L_Enders_Cataclysm-3.16.jar",
+            "MD5": "de747fb259b761f7b872654516fa27b3"
+          }
+        },
+        {
+          "id": "sfiomn.legendarycreatures:legendarycreatures:1.20.1-1.1.1.4@jar",
+          "name": "Legendary Creatures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3704761,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/legendarycreatures-1.20.1-1.1.1.4.jar",
+            "MD5": "7621ee18ff0cb076fa43a7074ccb6e3f"
+          }
+        },
+        {
+          "id": "net.miauczel:legendary_monsters:1.20.1@jar",
+          "name": "LegendaryMonsters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17573018,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/legendarymonsters-1.9.8%20MC%201.20.1.jar",
+            "MD5": "69ceb230ca06a906bf8cfa202e10977a"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55258,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+            "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
+          }
+        },
+        {
+          "id": "com.frikinjay:letmedespawn:1.5.0@jar",
+          "name": "Let Me Despawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14789,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letmedespawn-1.20.x-forge-1.5.0.jar",
+            "MD5": "0ff799ece663ddafab61ad32704fc51c"
+          }
+        },
+        {
+          "id": "generated.forgemod:letsdoaddonstructures:1.7.2@jar",
+          "name": "[Let's Do Addon] Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 330446,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-addon-structures-1.7.2.jar",
+            "MD5": "48caa732e3806c3e312839ddbbd7409e"
+          }
+        },
+        {
+          "id": "de.cristelknight:doapi:1.2.15@jar",
+          "name": "[Let's Do] API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1440591,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-API-forge-1.2.15-forge.jar",
+            "MD5": "82d392dd5ef6064d8988592a35b3b403"
+          }
+        },
+        {
+          "id": "net.satisfy:bakery:2.0.6@jar",
+          "name": "[Let's Do] Bakery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1222186,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-bakery-forge-2.0.6.jar",
+            "MD5": "609043b4852fe5f9965c396d3df71fbd"
+          }
+        },
+        {
+          "id": "net.satisfy:farm_and_charm:1.0.13@jar",
+          "name": "[Let's Do] Farm & Charm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2321061,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-farm_and_charm-forge-1.0.13.jar",
+            "MD5": "96e615e6af4138accfb1db4f7d6af24c"
+          }
+        },
+        {
+          "id": "com.berksire:furniture:1.0.4@jar",
+          "name": "[Let's Do] Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2816299,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-furniture-forge-1.0.4.jar",
+            "MD5": "5e335eb9a539cb96b9c7a6f26bc752c1"
+          }
+        },
+        {
+          "id": "net.satisfy:herbalbrews:1.0.12@jar",
+          "name": "[Let's Do] HerbalBrews",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 735868,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-herbalbrews-forge-1.0.12.jar",
+            "MD5": "8260ace33a59f8c85b86945510b07471"
+          }
+        },
+        {
+          "id": "net.satisfy:meadow:1.3.25@jar",
+          "name": "[Let's Do] Meadow",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2676511,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-meadow-forge-1.3.25.jar",
+            "MD5": "3ea594fdc393d588a236d54e870b7789"
+          }
+        },
+        {
+          "id": "net.satisfy:vinery:1.4.41@jar",
+          "name": "[Let's Do] Vinery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2041283,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-vinery-forge-1.4.41.jar",
+            "MD5": "bf692e0100772cfa90b9878a38c1f28a"
+          }
+        },
+        {
+          "id": "net.satisfy:wildernature:1.0.6@jar",
+          "name": "[Let's Do] Wilder Nature",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2102995,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/letsdo-wildernature-forge-1.0.6.jar",
+            "MD5": "fd08892b42440837734423d70592ecdd"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162767,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.92@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460882,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.93.jar",
+            "MD5": "2d5374b809d9ec1d7700a194b2fd0dd5"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.11.79@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1480444,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Mantle-1.20.1-1.11.79.jar",
+            "MD5": "19cf5725471882f2f65182e70f9c98ef"
+          }
+        },
+        {
+          "id": "com.folumo.mekanism_lasers_old:mekanism_lasers:1.0.10@jar",
+          "name": "Mekanism Lasers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 99393,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/mekanism_lasers-1.0.10.jar",
+            "MD5": "e2369922b24d427a381d06d39395445a"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.4.16@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12558456,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Mekanism-1.20.1-10.4.16.80.jar",
+            "MD5": "3791fb5cf1e8b6f583d3a00d5115d1ee"
+          }
+        },
+        {
+          "id": "mekanism.additions:mekanismadditions:10.4.16@jar",
+          "name": "Mekanism: Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1136805,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MekanismAdditions-1.20.1-10.4.16.80.jar",
+            "MD5": "af32e56e97b39d670c9b6cd0bbced4b7"
+          }
+        },
+        {
+          "id": "com.mumu:mekadvgen:10.4.13.69@jar",
+          "name": "Mekanism: Advanced Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1060269,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MekanismAdvancedGenerators-1.20.1-10.4.13.69.jar",
+            "MD5": "facf681956724b22f2cbbf2397072e7b"
+          }
+        },
+        {
+          "id": "dev.lucaargolo:mekanismcovers:1.3-BETA+1.20@jar",
+          "name": "Mekanism Covers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 122341,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/mekanismcovers-1.3-BETA+1.20.jar",
+            "MD5": "e0a0a3266ad772d7aa2621f21c8d10c7"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.4.16@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1054586,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MekanismGenerators-1.20.1-10.4.16.80.jar",
+            "MD5": "5ecedb27379b4543b28c0860f9c2fbf4"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.4.16@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517999,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MekanismTools-1.20.1-10.4.16.80.jar",
+            "MD5": "5fbc84c81cff26ba2d49c8ac7647f9e4"
+          }
+        },
+        {
+          "id": "meranha.mekaweapons:mekaweapons:3.0@jar",
+          "name": "Mekanism: Weapons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116376,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MekanismWeapons-1.20.1-3.0.jar",
+            "MD5": "21a5aa9bf51709b7d0b3a4e4788ab88e"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.24.4+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 880557,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/modernfix-forge-5.24.4+mc1.20.1.jar",
+            "MD5": "1d729a283f14fdbf1021ff4f0c88b0ec"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.13@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1333837,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/moonlight-1.20-2.16.13-forge.jar",
+            "MD5": "2b386a8800e8396194e492533380b751"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.7.3@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35239406,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/mowziesmobs-1.7.3.jar",
+            "MD5": "ae03fbc5568adbf84e49806af92844cd"
+          }
+        },
+        {
+          "id": "com.yahoo.chirpycricket:mythicmounts:20.1-7.4.2-forge@jar",
+          "name": "MythicMounts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4335508,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/mythicmounts-20.1-7.4.2-forge.jar",
+            "MD5": "0819fe9186886c8ccadf061d6c4fb2ea"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "net.darkhax:openloader:19.0.4@jar",
+          "name": "OpenLoader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23938,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/OpenLoader-Forge-1.20.1-19.0.4.jar",
+            "MD5": "e1115843c44e491f45e0b6890c5776cb"
+          }
+        },
+        {
+          "id": "com.modrinth.xl2gihru:mr_ore_veinminer:1.0@jar",
+          "name": "Ore Vein Miner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216083,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/ore-vein-miner-1.0.jar",
+            "MD5": "6decbcf6bfefd1248837bd1bb2adcefe"
+          }
+        },
+        {
+          "id": "dev.tonimatas:packetfixer:3.3.0@jar",
+          "name": "PacketFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190422,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/packetfixer-3.3.0-1.18-1.20.4-merged.jar",
+            "MD5": "75045a749fde88dc20972e34bb815f29"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84.1-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642711,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Patchouli-1.20.1-84.1-FORGE.jar",
+            "MD5": "d5154cacf6859582eebd853bd59f5537"
+          }
+        },
+        {
+          "id": "io.github.sirjain0:perfectplushies:1.13.3@jar",
+          "name": "Perfect Plushies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 437616,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/perfectplushies-forge-1.20.1-1.13.3.jar",
+            "MD5": "ed826155594c856bf5bef1f1ad3a85a8"
+          }
+        },
+        {
+          "id": "de.maxhenkel:pipez:1.20.1-1.2.5@jar",
+          "name": "Pipez",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423184,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/pipez-1.20.1-1.2.5.jar",
+            "MD5": "8448af4aeab6d1ca860c645c96da376d"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "owmii.powah:powah:5.0.11@jar",
+          "name": "Powah",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2393933,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Powah-5.0.11.jar",
+            "MD5": "267d5da86048fd31b6ccda2a36cf36f1"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
+          }
+        },
+        {
+          "id": "net.permutated:pylons:4.2.1@jar",
+          "name": "Pylons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 143285,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/pylons-1.20.1-4.2.1.jar",
+            "MD5": "fecac80264f09b3025798f7f8244e26e"
+          }
+        },
+        {
+          "id": "xyz.iwolfking.rechiseledchipped:rechiseled_chipped:1.2@jar",
+          "name": "Rechiseled: Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 197497,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/rechiseled_chipped-1.2.1-1.20.1.jar",
+            "MD5": "8ae1a8c49a537ac72ec58fc7759d5578"
+          }
+        },
+        {
+          "id": "com.supermartijn642:rechiseled:1.1.6@jar",
+          "name": "Rechiseled",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3600460,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/rechiseled-1.1.6-forge-mc1.20.jar",
+            "MD5": "bf5a3b3264d2eb5e12ac6d9b0fcc1f90"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136923,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+            "MD5": "947463b04c043937cd24506842f737a3"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432753,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1798244,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/rhino-forge-2001.2.3-build.10.jar",
+            "MD5": "59387620b0ef6becbff02c7c1636ad3e"
+          }
+        },
+        {
+          "id": "com.hypherionmc.simplerpc.loaders:simplerpc:4.0.4@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 713920,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/SimpleRPC-4.0.4.jar",
+            "MD5": "ec1d2917e5ed44b7467e422d1b2506d2"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          }
+        },
+        {
+          "id": "toni.sodiumextras:sodiumextras:1.0.6@jar",
+          "name": "Sodium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 438540,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/sodiumextras-forge-1.0.7-1.20.1.jar",
+            "MD5": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          }
+        },
+        {
+          "id": "org.zeith:solarflux:20.1.11@jar",
+          "name": "Solar Flux Reborn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 286313,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/SolarFluxReborn-1.20.1-20.1.11.jar",
+            "MD5": "fe9d004c02b0d3ccab96197cc4bb8002"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.8.1386@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 970976,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.8.1386.jar",
+            "MD5": "e514feae6bcd3054bfdbade6a1b54c12"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.98.1199@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1420957,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.98.1199.jar",
+            "MD5": "0a39820038cb8bf8b2e9bec3850a7859"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:12.14.3@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1143623,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/StorageDrawers-forge-1.20.1-12.14.3.jar",
+            "MD5": "b028423a78cf22d461e00ac681b59eb2"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515362,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-3.1.40@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13649917,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/supplementaries-1.20-3.1.40.jar",
+            "MD5": "e987a244f58775b90a3afd5ca9396917"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.10.2.92@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19792115,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/TConstruct-1.20.1-3.10.2.92.jar",
+            "MD5": "f509c2dc7895504a1ccd7860a2fb7a47"
+          }
+        },
+        {
+          "id": "com.supermartijn642:tesseract:1.0.38@jar",
+          "name": "Tesseract",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1204163,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/tesseract-1.0.38-forge-mc1.20.1.jar",
+            "MD5": "21243d210b9f3df07abed7957af6acbc"
+          }
+        },
+        {
+          "id": "cofh.thermal.cultivation:thermal_cultivation:11.0.1@jar",
+          "name": "Thermal Cultivation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622032,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_cultivation-1.20.1-11.0.1.24.jar",
+            "MD5": "5ad77d70a9fd5c8b191d3a1ae40b3f97"
+          }
+        },
+        {
+          "id": "cofh.thermal.dynamics:thermal_dynamics:11.0.1@jar",
+          "name": "Thermal Dynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622948,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_dynamics-1.20.1-11.0.1.23.jar",
+            "MD5": "2818f087d5d862c7e9e03d69f18d9a06"
+          }
+        },
+        {
+          "id": "cofh.thermal.expansion:thermal_expansion:11.0.1@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 574141,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_expansion-1.20.1-11.0.1.29.jar",
+            "MD5": "468d64ba6d6753587687b54573d57d73"
+          }
+        },
+        {
+          "id": "cofh.thermal.foundation:thermal_foundation:11.0.6@jar",
+          "name": "Thermal Foundation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4549423,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_foundation-1.20.1-11.0.6.70.jar",
+            "MD5": "00cf83270e22559998cc82cfe48579d7"
+          }
+        },
+        {
+          "id": "cofh.thermal.innovation:thermal_innovation:11.0.1@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225344,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_innovation-1.20.1-11.0.1.23.jar",
+            "MD5": "996ae2825dc7cba004a0930ae81f615f"
+          }
+        },
+        {
+          "id": "cofh.thermal.integration:thermal_integration:11.0.1@jar",
+          "name": "Thermal Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 333350,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/thermal_integration-1.20.1-11.0.1.27.jar",
+            "MD5": "98bfcf959cfce5128745141e1fa9291d"
+          }
+        },
+        {
+          "id": "com.c2h6s:tinkers_advanced:3.0.0-beta.12@jar",
+          "name": "Tinkers' Advanced",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5558708,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/tinkers_advanced-3.0.0-beta.12.jar",
+            "MD5": "74c5ce6069df166719d26608b8aa3fa7"
+          }
+        },
+        {
+          "id": "dev.ferriarnus:tinkersjewelry:1.2.0@jar",
+          "name": "Tinkers' Jewelry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1117039,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/tinkersjewelry-1.2.0.jar",
+            "MD5": "75493b5154f02f57f78bd18ced22ef1a"
+          }
+        },
+        {
+          "id": "com.hrznstudio:titanium:3.8.32@jar",
+          "name": "Titanium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622068,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/titanium-1.20.1-3.8.32.jar",
+            "MD5": "75baf7f67163a1da0fbb6a8bc98fa012"
+          }
+        },
+        {
+          "id": "net.redfox:tleveling:0.2.5-1.20.1@jar",
+          "name": "Tinker's Tool Leveling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107694,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/tleveling-0.2.5-1.20.1.jar",
+            "MD5": "a880d7a19e3f1d0cc8e47c8f1fc8f234"
+          }
+        },
+        {
+          "id": "net.xalcon:torchmaster:20.1.9@jar",
+          "name": "Torchmaster",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 119348,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/torchmaster-20.1.9.jar",
+            "MD5": "5ccfbdd3ad8436df3b99967e746ac2cd"
+          }
+        },
+        {
+          "id": "com.supermartijn642:trashcans:1.0.18b@jar",
+          "name": "Trash Cans",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158164,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/trashcans-1.0.18b-forge-mc1.20.jar",
+            "MD5": "96b30739859465a3a3f8d1d4a6c9d48c"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_limesplatus_ending:1-v1.1.0c@jar",
+          "name": "True Ending: Ender Dragon Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5525883,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/tru.e-ending-v1.1.0c.jar",
+            "MD5": "c83ccd876af0ac3cac72d2880b7c1a18"
+          }
+        },
+        {
+          "id": "toni.lib:txnilib:1.0.24@jar",
+          "name": "TxniLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743339,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/txnilib-forge-1.0.24-1.20.1.jar",
+            "MD5": "31823d0999fda413af6dc226481e404a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.36@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7628119,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.36.jar",
+            "MD5": "a1031da1382071ae3d5c306a02b028b8"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 2854,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftblibrary/textures/gui/background.png",
+            "MD5": "c9348db4ca00d4d0e7128d9c8a9787cc",
+            "path": "kubejs/assets/ftblibrary/textures/gui/background.png"
+          }
+        },
+        {
+          "id": "background_black.png",
+          "name": "background_black.png",
+          "type": "File",
+          "artifact": {
+            "size": 3779,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftblibrary/textures/gui/background_black.png",
+            "MD5": "9302cfe9b29897e4f90cef6c19ba9195",
+            "path": "kubejs/assets/ftblibrary/textures/gui/background_black.png"
+          }
+        },
+        {
+          "id": "background_warm.png",
+          "name": "background_warm.png",
+          "type": "File",
+          "artifact": {
+            "size": 4049,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftblibrary/textures/gui/background_warm.png",
+            "MD5": "1a38561fb2dc30327491f3b91502f18d",
+            "path": "kubejs/assets/ftblibrary/textures/gui/background_warm.png"
+          }
+        },
+        {
+          "id": "background_warm_black.png",
+          "name": "background_warm_black.png",
+          "type": "File",
+          "artifact": {
+            "size": 4047,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftblibrary/textures/gui/background_warm_black.png",
+            "MD5": "a1190ae554916f014a7e4310e7a07579",
+            "path": "kubejs/assets/ftblibrary/textures/gui/background_warm_black.png"
+          }
+        },
+        {
+          "id": "background_white.png",
+          "name": "background_white.png",
+          "type": "File",
+          "artifact": {
+            "size": 4043,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftblibrary/textures/gui/background_white.png",
+            "MD5": "b6d6131e6a19df02428dbcfa90c90fab",
+            "path": "kubejs/assets/ftblibrary/textures/gui/background_white.png"
+          }
+        },
+        {
+          "id": "ftb_quests_theme.txt",
+          "name": "ftb_quests_theme.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3725,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/ftb_quests_theme.txt",
+            "MD5": "6dcfa47ec376937a3602aec390f25010",
+            "path": "kubejs/assets/ftbquests/ftb_quests_theme.txt"
+          }
+        },
+        {
+          "id": "book.json",
+          "name": "book.json",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/models/item/book.json",
+            "MD5": "c77738a708173b408eb5c416972aa3ee",
+            "path": "kubejs/assets/ftbquests/models/item/book.json"
+          }
+        },
+        {
+          "id": "artifacts.png",
+          "name": "artifacts.png",
+          "type": "File",
+          "artifact": {
+            "size": 2016,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/artifacts.png",
+            "MD5": "0554b9ed81c5062f9c61d37e32663ccf",
+            "path": "kubejs/assets/ftbquests/textures/gui/artifacts.png"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 2854,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/background.png",
+            "MD5": "c9348db4ca00d4d0e7128d9c8a9787cc",
+            "path": "kubejs/assets/ftbquests/textures/gui/background.png"
+          }
+        },
+        {
+          "id": "background_black.png",
+          "name": "background_black.png",
+          "type": "File",
+          "artifact": {
+            "size": 3779,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/background_black.png",
+            "MD5": "9302cfe9b29897e4f90cef6c19ba9195",
+            "path": "kubejs/assets/ftbquests/textures/gui/background_black.png"
+          }
+        },
+        {
+          "id": "background_warm.png",
+          "name": "background_warm.png",
+          "type": "File",
+          "artifact": {
+            "size": 4049,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/background_warm.png",
+            "MD5": "1a38561fb2dc30327491f3b91502f18d",
+            "path": "kubejs/assets/ftbquests/textures/gui/background_warm.png"
+          }
+        },
+        {
+          "id": "background_warm_black.png",
+          "name": "background_warm_black.png",
+          "type": "File",
+          "artifact": {
+            "size": 4047,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/background_warm_black.png",
+            "MD5": "a1190ae554916f014a7e4310e7a07579",
+            "path": "kubejs/assets/ftbquests/textures/gui/background_warm_black.png"
+          }
+        },
+        {
+          "id": "background_white.png",
+          "name": "background_white.png",
+          "type": "File",
+          "artifact": {
+            "size": 4043,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/background_white.png",
+            "MD5": "b6d6131e6a19df02428dbcfa90c90fab",
+            "path": "kubejs/assets/ftbquests/textures/gui/background_white.png"
+          }
+        },
+        {
+          "id": "belt_scroll.png",
+          "name": "belt_scroll.png",
+          "type": "File",
+          "artifact": {
+            "size": 1014,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/belt_scroll.png",
+            "MD5": "409bef33ad1e08fa74ae5d8428d6b602",
+            "path": "kubejs/assets/ftbquests/textures/gui/belt_scroll.png"
+          }
+        },
+        {
+          "id": "bg_powah.png",
+          "name": "bg_powah.png",
+          "type": "File",
+          "artifact": {
+            "size": 6902,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/bg_powah.png",
+            "MD5": "b32978d7e74bed5c41e6847842bb5b80",
+            "path": "kubejs/assets/ftbquests/textures/gui/bg_powah.png"
+          }
+        },
+        {
+          "id": "bomd.png",
+          "name": "bomd.png",
+          "type": "File",
+          "artifact": {
+            "size": 13642,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/bomd.png",
+            "MD5": "90ef8a79bd7bf84277c34efc488d3a03",
+            "path": "kubejs/assets/ftbquests/textures/gui/bomd.png"
+          }
+        },
+        {
+          "id": "boss_rush_title.png",
+          "name": "boss_rush_title.png",
+          "type": "File",
+          "artifact": {
+            "size": 133942,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/boss_rush_title.png",
+            "MD5": "2928b6cea10f0966e39202cf2e9fb179",
+            "path": "kubejs/assets/ftbquests/textures/gui/boss_rush_title.png"
+          }
+        },
+        {
+          "id": "cataclysm.png",
+          "name": "cataclysm.png",
+          "type": "File",
+          "artifact": {
+            "size": 34329,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/cataclysm.png",
+            "MD5": "9981813e0c31166451c3d67d8a6bcf82",
+            "path": "kubejs/assets/ftbquests/textures/gui/cataclysm.png"
+          }
+        },
+        {
+          "id": "completionist.png",
+          "name": "completionist.png",
+          "type": "File",
+          "artifact": {
+            "size": 46675,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/completionist.png",
+            "MD5": "d66cfb58b008c3a3c69fbfb683a4d06c",
+            "path": "kubejs/assets/ftbquests/textures/gui/completionist.png"
+          }
+        },
+        {
+          "id": "cosmic_title.png",
+          "name": "cosmic_title.png",
+          "type": "File",
+          "artifact": {
+            "size": 86797,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/cosmic_title.png",
+            "MD5": "3e8a3d9f7cc95626613d31a08272d56c",
+            "path": "kubejs/assets/ftbquests/textures/gui/cosmic_title.png"
+          }
+        },
+        {
+          "id": "create_logo.png",
+          "name": "create_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 74546,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/create_logo.png",
+            "MD5": "76e12aa7e8cbcf1ff65f337fb4ac2f08",
+            "path": "kubejs/assets/ftbquests/textures/gui/create_logo.png"
+          }
+        },
+        {
+          "id": "dependency.png",
+          "name": "dependency.png",
+          "type": "File",
+          "artifact": {
+            "size": 493,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/dependency.png",
+            "MD5": "ce17009bf2c6d754e80603aec8129970",
+            "path": "kubejs/assets/ftbquests/textures/gui/dependency.png"
+          }
+        },
+        {
+          "id": "dependency.png.mcmeta",
+          "name": "dependency.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 39,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/dependency.png.mcmeta",
+            "MD5": "8ff52f43968fafcc24f13bff1af1db43",
+            "path": "kubejs/assets/ftbquests/textures/gui/dependency.png.mcmeta"
+          }
+        },
+        {
+          "id": "double_sky.png",
+          "name": "double_sky.png",
+          "type": "File",
+          "artifact": {
+            "size": 177690,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/double_sky.png",
+            "MD5": "f4bf3ad8b5c130a8533403dd88ec78c6",
+            "path": "kubejs/assets/ftbquests/textures/gui/double_sky.png"
+          }
+        },
+        {
+          "id": "flowing_a.png",
+          "name": "flowing_a.png",
+          "type": "File",
+          "artifact": {
+            "size": 5129,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/flowing_a.png",
+            "MD5": "699b13f9c5dd26beb2ce6ecabd046f84",
+            "path": "kubejs/assets/ftbquests/textures/gui/flowing_a.png"
+          }
+        },
+        {
+          "id": "flowing_b.png",
+          "name": "flowing_b.png",
+          "type": "File",
+          "artifact": {
+            "size": 8601,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/flowing_b.png",
+            "MD5": "484e01713bb621666ca3a0c0885f8cca",
+            "path": "kubejs/assets/ftbquests/textures/gui/flowing_b.png"
+          }
+        },
+        {
+          "id": "flowing_mekanism.png",
+          "name": "flowing_mekanism.png",
+          "type": "File",
+          "artifact": {
+            "size": 1763,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/flowing_mekanism.png",
+            "MD5": "0a6ebcc486ef70a0315034980792e65d",
+            "path": "kubejs/assets/ftbquests/textures/gui/flowing_mekanism.png"
+          }
+        },
+        {
+          "id": "getting_started.png",
+          "name": "getting_started.png",
+          "type": "File",
+          "artifact": {
+            "size": 5917,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/getting_started.png",
+            "MD5": "1716b3aa768441ccac98a5078e66b680",
+            "path": "kubejs/assets/ftbquests/textures/gui/getting_started.png"
+          }
+        },
+        {
+          "id": "immair_biplane.png",
+          "name": "immair_biplane.png",
+          "type": "File",
+          "artifact": {
+            "size": 291737,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/immair_biplane.png",
+            "MD5": "b9d3349e44f8087d9dc90f8ffc7ce81b",
+            "path": "kubejs/assets/ftbquests/textures/gui/immair_biplane.png"
+          }
+        },
+        {
+          "id": "immair_cargoship.png",
+          "name": "immair_cargoship.png",
+          "type": "File",
+          "artifact": {
+            "size": 115052,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/immair_cargoship.png",
+            "MD5": "4f26484d47ed22e9b417b2742eea65cc",
+            "path": "kubejs/assets/ftbquests/textures/gui/immair_cargoship.png"
+          }
+        },
+        {
+          "id": "immair_gyrodyne.png",
+          "name": "immair_gyrodyne.png",
+          "type": "File",
+          "artifact": {
+            "size": 152198,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/immair_gyrodyne.png",
+            "MD5": "41341b389c41889d2f1e1980084ff0bd",
+            "path": "kubejs/assets/ftbquests/textures/gui/immair_gyrodyne.png"
+          }
+        },
+        {
+          "id": "immair_warship.png",
+          "name": "immair_warship.png",
+          "type": "File",
+          "artifact": {
+            "size": 316145,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/immair_warship.png",
+            "MD5": "4e7c61818228d6eaa7a3334916311bb0",
+            "path": "kubejs/assets/ftbquests/textures/gui/immair_warship.png"
+          }
+        },
+        {
+          "id": "infinity.png",
+          "name": "infinity.png",
+          "type": "File",
+          "artifact": {
+            "size": 81029,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/infinity.png",
+            "MD5": "20924ebcdcd0deface76352b87e0fa21",
+            "path": "kubejs/assets/ftbquests/textures/gui/infinity.png"
+          }
+        },
+        {
+          "id": "lines_ae2.b.png",
+          "name": "lines_ae2.b.png",
+          "type": "File",
+          "artifact": {
+            "size": 3770,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/lines_ae2.b.png",
+            "MD5": "fe8f07c311dee5ccb4b7fb03d26a72bd",
+            "path": "kubejs/assets/ftbquests/textures/gui/lines_ae2.b.png"
+          }
+        },
+        {
+          "id": "lines_ae2.png",
+          "name": "lines_ae2.png",
+          "type": "File",
+          "artifact": {
+            "size": 5336,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/lines_ae2.png",
+            "MD5": "d914e46a33fbaf14ec581a349ac66cfe",
+            "path": "kubejs/assets/ftbquests/textures/gui/lines_ae2.png"
+          }
+        },
+        {
+          "id": "masked_main.png",
+          "name": "masked_main.png",
+          "type": "File",
+          "artifact": {
+            "size": 44184,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/masked_main.png",
+            "MD5": "5ac9b6364becc7c66038f48356b0d7b4",
+            "path": "kubejs/assets/ftbquests/textures/gui/masked_main.png"
+          }
+        },
+        {
+          "id": "masked_main_b.png",
+          "name": "masked_main_b.png",
+          "type": "File",
+          "artifact": {
+            "size": 69084,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/masked_main_b.png",
+            "MD5": "60fdc8c7eb0ba97be57ed7019ac679a0",
+            "path": "kubejs/assets/ftbquests/textures/gui/masked_main_b.png"
+          }
+        },
+        {
+          "id": "minecraft_title.png",
+          "name": "minecraft_title.png",
+          "type": "File",
+          "artifact": {
+            "size": 39584,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/minecraft_title.png",
+            "MD5": "98e451fb7bab2e11a44ef6cd613d303b",
+            "path": "kubejs/assets/ftbquests/textures/gui/minecraft_title.png"
+          }
+        },
+        {
+          "id": "relics.png",
+          "name": "relics.png",
+          "type": "File",
+          "artifact": {
+            "size": 55653,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/relics.png",
+            "MD5": "f999e2e14fe43bf15f98cca39f60808d",
+            "path": "kubejs/assets/ftbquests/textures/gui/relics.png"
+          }
+        },
+        {
+          "id": "replication.png",
+          "name": "replication.png",
+          "type": "File",
+          "artifact": {
+            "size": 2706,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/replication.png",
+            "MD5": "823b1cdc56c878189b73bbde2fe52917",
+            "path": "kubejs/assets/ftbquests/textures/gui/replication.png"
+          }
+        },
+        {
+          "id": "rizoma.png",
+          "name": "rizoma.png",
+          "type": "File",
+          "artifact": {
+            "size": 107934,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/rizoma.png",
+            "MD5": "ef6861387359c43c25a383f0ae66c004",
+            "path": "kubejs/assets/ftbquests/textures/gui/rizoma.png"
+          }
+        },
+        {
+          "id": "title_ae2.png",
+          "name": "title_ae2.png",
+          "type": "File",
+          "artifact": {
+            "size": 3528,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_ae2.png",
+            "MD5": "47ba24703af16658082fba1110ba5fee",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_ae2.png"
+          }
+        },
+        {
+          "id": "title_an.png",
+          "name": "title_an.png",
+          "type": "File",
+          "artifact": {
+            "size": 3624,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_an.png",
+            "MD5": "e4908438e6e28029fe365e411f868d70",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_an.png"
+          }
+        },
+        {
+          "id": "title_ation.png",
+          "name": "title_ation.png",
+          "type": "File",
+          "artifact": {
+            "size": 4443,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_ation.png",
+            "MD5": "15c3bd8fc06969df17efd18ac925e9ba",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_ation.png"
+          }
+        },
+        {
+          "id": "title_brass.png",
+          "name": "title_brass.png",
+          "type": "File",
+          "artifact": {
+            "size": 2452,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_brass.png",
+            "MD5": "5bcd785dda0ab351505ccad083f13c20",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_brass.png"
+          }
+        },
+        {
+          "id": "title_craftoria.png",
+          "name": "title_craftoria.png",
+          "type": "File",
+          "artifact": {
+            "size": 4897,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_craftoria.png",
+            "MD5": "df1fe9aa42f65dbaae90a53f08e1e44c",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_craftoria.png"
+          }
+        },
+        {
+          "id": "title_c_blend.png",
+          "name": "title_c_blend.png",
+          "type": "File",
+          "artifact": {
+            "size": 6272,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_c_blend.png",
+            "MD5": "7e3f894f54e64ea69459a5b1929f6950",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_c_blend.png"
+          }
+        },
+        {
+          "id": "title_factory.png",
+          "name": "title_factory.png",
+          "type": "File",
+          "artifact": {
+            "size": 3063,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_factory.png",
+            "MD5": "bcad0763d09ce4bc8b495fbebcee77b8",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_factory.png"
+          }
+        },
+        {
+          "id": "title_facu_craftoria.png",
+          "name": "title_facu_craftoria.png",
+          "type": "File",
+          "artifact": {
+            "size": 57166,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_facu_craftoria.png",
+            "MD5": "1608665b05a93d6fc01fb8805b25ff5e",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_facu_craftoria.png"
+          }
+        },
+        {
+          "id": "title_gs.png",
+          "name": "title_gs.png",
+          "type": "File",
+          "artifact": {
+            "size": 6540,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_gs.png",
+            "MD5": "69cbc87e01f4ecf00ac3a689e7771a16",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_gs.png"
+          }
+        },
+        {
+          "id": "title_indust.png",
+          "name": "title_indust.png",
+          "type": "File",
+          "artifact": {
+            "size": 4897,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_indust.png",
+            "MD5": "011812bfeed779922712de802ea4fa4e",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_indust.png"
+          }
+        },
+        {
+          "id": "title_ism.png",
+          "name": "title_ism.png",
+          "type": "File",
+          "artifact": {
+            "size": 4269,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_ism.png",
+            "MD5": "0c0f0d7c2ae390f44c7675d0338dd518",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_ism.png"
+          }
+        },
+        {
+          "id": "title_jdt.png",
+          "name": "title_jdt.png",
+          "type": "File",
+          "artifact": {
+            "size": 7976,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_jdt.png",
+            "MD5": "42de0990923300de44bf4a87c20f37c5",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_jdt.png"
+          }
+        },
+        {
+          "id": "title_jdt2.png",
+          "name": "title_jdt2.png",
+          "type": "File",
+          "artifact": {
+            "size": 5208,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_jdt2.png",
+            "MD5": "fd7432aea7036f156a5a707e7165e2a9",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_jdt2.png"
+          }
+        },
+        {
+          "id": "title_mechanical.png",
+          "name": "title_mechanical.png",
+          "type": "File",
+          "artifact": {
+            "size": 3151,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_mechanical.png",
+            "MD5": "10bb3384794968747d083ffbf2109862",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_mechanical.png"
+          }
+        },
+        {
+          "id": "title_meka.png",
+          "name": "title_meka.png",
+          "type": "File",
+          "artifact": {
+            "size": 4648,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_meka.png",
+            "MD5": "ae184992e6b85ca40575f0f9b8606220",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_meka.png"
+          }
+        },
+        {
+          "id": "title_mi.png",
+          "name": "title_mi.png",
+          "type": "File",
+          "artifact": {
+            "size": 8868,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_mi.png",
+            "MD5": "921c2870efd9b24bf359290192cbe40c",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_mi.png"
+          }
+        },
+        {
+          "id": "title_modern.png",
+          "name": "title_modern.png",
+          "type": "File",
+          "artifact": {
+            "size": 5079,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_modern.png",
+            "MD5": "b61d4830aecb19f50eb4453f4e460890",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_modern.png"
+          }
+        },
+        {
+          "id": "title_nism.png",
+          "name": "title_nism.png",
+          "type": "File",
+          "artifact": {
+            "size": 4360,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_nism.png",
+            "MD5": "4c5e4595b2f70a0d6287f23fbde1e920",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_nism.png"
+          }
+        },
+        {
+          "id": "title_occult.png",
+          "name": "title_occult.png",
+          "type": "File",
+          "artifact": {
+            "size": 4345,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_occult.png",
+            "MD5": "84f2b8a1cff595a4177a0b76e17b8606",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_occult.png"
+          }
+        },
+        {
+          "id": "title_plumbing.png",
+          "name": "title_plumbing.png",
+          "type": "File",
+          "artifact": {
+            "size": 2577,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_plumbing.png",
+            "MD5": "9c0a3e7bab331e9f6c7e3c7a94fc1101",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_plumbing.png"
+          }
+        },
+        {
+          "id": "title_powah.png",
+          "name": "title_powah.png",
+          "type": "File",
+          "artifact": {
+            "size": 4930,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_powah.png",
+            "MD5": "35adf9fa2a46128eb5eb3ab1f349fc86",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_powah.png"
+          }
+        },
+        {
+          "id": "title_rializ.png",
+          "name": "title_rializ.png",
+          "type": "File",
+          "artifact": {
+            "size": 5051,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_rializ.png",
+            "MD5": "a76561eda67e58dba07079e6656864da",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_rializ.png"
+          }
+        },
+        {
+          "id": "title_specials.png",
+          "name": "title_specials.png",
+          "type": "File",
+          "artifact": {
+            "size": 2597,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_specials.png",
+            "MD5": "b4d528428c9af316cba6466c7338426e",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_specials.png"
+          }
+        },
+        {
+          "id": "title_theurgy.png",
+          "name": "title_theurgy.png",
+          "type": "File",
+          "artifact": {
+            "size": 5221,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_theurgy.png",
+            "MD5": "04bd29f25f5652a480bd3ff0d9b78cb8",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_theurgy.png"
+          }
+        },
+        {
+          "id": "title_tools.png",
+          "name": "title_tools.png",
+          "type": "File",
+          "artifact": {
+            "size": 2374,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_tools.png",
+            "MD5": "ba0accce30ce5d17f7a2aa28eb3cbe32",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_tools.png"
+          }
+        },
+        {
+          "id": "title_trains.png",
+          "name": "title_trains.png",
+          "type": "File",
+          "artifact": {
+            "size": 2430,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_trains.png",
+            "MD5": "caf519088b4c3860b7b04864759436b9",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_trains.png"
+          }
+        },
+        {
+          "id": "title_transportation.png",
+          "name": "title_transportation.png",
+          "type": "File",
+          "artifact": {
+            "size": 3001,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/title_transportation.png",
+            "MD5": "b8997b49aa0c6470653f83b9195a2a0b",
+            "path": "kubejs/assets/ftbquests/textures/gui/title_transportation.png"
+          }
+        },
+        {
+          "id": "toolbox_interior.png",
+          "name": "toolbox_interior.png",
+          "type": "File",
+          "artifact": {
+            "size": 2862,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/toolbox_interior.png",
+            "MD5": "643d7ce40edd29b59fe3763051385e4a",
+            "path": "kubejs/assets/ftbquests/textures/gui/toolbox_interior.png"
+          }
+        },
+        {
+          "id": "toolbox_interior_with_arrow.png",
+          "name": "toolbox_interior_with_arrow.png",
+          "type": "File",
+          "artifact": {
+            "size": 2983,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/toolbox_interior_with_arrow.png",
+            "MD5": "1c930927e7c7d26e462ccb6461e557d8",
+            "path": "kubejs/assets/ftbquests/textures/gui/toolbox_interior_with_arrow.png"
+          }
+        },
+        {
+          "id": "toolbox_open.png",
+          "name": "toolbox_open.png",
+          "type": "File",
+          "artifact": {
+            "size": 7147,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/toolbox_open.png",
+            "MD5": "b9d778c2390e748ec09c3f022ec9a5de",
+            "path": "kubejs/assets/ftbquests/textures/gui/toolbox_open.png"
+          }
+        },
+        {
+          "id": "toolbox_slot_transparent.png",
+          "name": "toolbox_slot_transparent.png",
+          "type": "File",
+          "artifact": {
+            "size": 1889,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/toolbox_slot_transparent.png",
+            "MD5": "66910b3e3b4f858922ba5a200facbde1",
+            "path": "kubejs/assets/ftbquests/textures/gui/toolbox_slot_transparent.png"
+          }
+        },
+        {
+          "id": "twilight_forest.png",
+          "name": "twilight_forest.png",
+          "type": "File",
+          "artifact": {
+            "size": 44948,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/twilight_forest.png",
+            "MD5": "0648ab5c8feb16fb4e0dea9f958a8a26",
+            "path": "kubejs/assets/ftbquests/textures/gui/twilight_forest.png"
+          }
+        },
+        {
+          "id": "book.png",
+          "name": "book.png",
+          "type": "File",
+          "artifact": {
+            "size": 1958,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/item/book.png",
+            "MD5": "3875ecbe59d13c9732dd91d22e3ff39b",
+            "path": "kubejs/assets/ftbquests/textures/item/book.png"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/client_scripts/example.js",
+            "MD5": "979c62225b318d6d57499921bc47b62d",
+            "path": "kubejs/client_scripts/example.js"
+          }
+        },
+        {
+          "id": "client.properties",
+          "name": "client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/config/client.properties",
+            "MD5": "fc436643c09bed0816c5b50e4b6d7257",
+            "path": "kubejs/config/client.properties"
+          }
+        },
+        {
+          "id": "common.properties",
+          "name": "common.properties",
+          "type": "File",
+          "artifact": {
+            "size": 342,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/config/common.properties",
+            "MD5": "f5aadd46d74d8ca37e4fb91f7223b498",
+            "path": "kubejs/config/common.properties"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1203,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/README.txt",
+            "MD5": "9b7dd698e2035090afd6f76f2d493cc6",
+            "path": "kubejs/README.txt"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/server_scripts/example.js",
+            "MD5": "96f1e20e0fe5dc7f2aed643bfa3f9a3f",
+            "path": "kubejs/server_scripts/example.js"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 127,
+            "url": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/servers/MeuModpack-1.20.1/files/kubejs/startup_scripts/example.js",
+            "MD5": "ac40b56827e466149303bb91778b90e4",
+            "path": "kubejs/startup_scripts/example.js"
+          }
+        }
+      ]
+    }
+  ]
+}
