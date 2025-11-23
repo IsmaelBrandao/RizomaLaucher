@@ -3387,7 +3387,7 @@ input:checked + .toggleSwitchSlider:before {
 * * */
 
 /* Main launch content container. */
-#landingContainer > #lower > #right #launch_content {
+#landingContainer > #lower > #center #launch_content {
     position: relative;
     top: 25px;
     display: inline-flex;
@@ -3425,6 +3425,8 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     top: 25px;
     display: none;
+    align-items: center; 
+    justify-content: center;
 }
  
 /* Left side of launch details container, displays percentage and a divider. */
@@ -3965,4 +3967,17 @@ input:checked + .toggleSwitchSlider:before {
 /* Class which is applied when the spinner image is spinning. */
 .rotating {
     animation: rotating 10s linear infinite;
+}
+
+/* Estilo novo para o seletor ficar alinhado na direita */
+#server_select_container {
+    position: relative;
+    top: 25px; /* Ajuste esse valor se quiser subir ou descer */
+    display: inline-flex;
+    padding-right: 40px; /* Um pouco de margem da borda da tela */
+}
+
+#server_select_container #server_selection_button {
+    font-size: 14px; /* Aumentei um pouco a letra */
+    text-transform: uppercase; /* Letras maiúsculas para ficar estilo "MENU" */
 }
