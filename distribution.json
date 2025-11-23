@@ -778,6 +778,16 @@
           }
         },
         {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://ismaelbrandao.github.io/RizomaLaucher/servers/MeuModpack-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          }
+        },
+        {
           "id": "net.blay09.mods:cookingforblockheads:16.0.14@jar",
           "name": "CookingForBlockheads",
           "type": "ForgeMod",
@@ -1485,6 +1495,16 @@
             "size": 1654660,
             "url": "https://ismaelbrandao.github.io/RizomaLaucher/servers/MeuModpack-1.20.1/forgemods/required/kubejs-forge-2001.6.5-build.16.jar",
             "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.16@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127993805,
+            "url": "https://www.curseforge.com/api/v1/mods/551586/files/6906993/download",
+            "MD5": "de747fb259b761f7b872654516fa27b3"
           }
         },
         {
@@ -2450,7 +2470,7 @@
           "type": "File",
           "artifact": {
             "size": 34329,
-            "url": "https://www.curseforge.com/api/v1/mods/551586/files/6906993/download",
+            "url": "https://ismaelbrandao.github.io/RizomaLaucher/servers/MeuModpack-1.20.1/files/kubejs/assets/ftbquests/textures/gui/cataclysm.png",
             "MD5": "9981813e0c31166451c3d67d8a6bcf82",
             "path": "kubejs/assets/ftbquests/textures/gui/cataclysm.png"
           }
