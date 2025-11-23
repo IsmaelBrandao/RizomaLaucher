@@ -778,16 +778,6 @@
           }
         },
         {
-          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
-          "name": "Continuity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1016666,
-            "url": "https://ismaelbrandao.github.io/RizomaLaucher/servers/MeuModpack-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
-            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
-          }
-        },
-        {
           "id": "net.blay09.mods:cookingforblockheads:16.0.14@jar",
           "name": "CookingForBlockheads",
           "type": "ForgeMod",
