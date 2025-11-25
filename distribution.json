@@ -11,7 +11,7 @@
       "id": "MeuModpack-1.20.1",
       "name": "Rizoma (Minecraft 1.20.1)",
       "description": "Modpack Rizoma 1.20.1 (Forge v47.4.0)",
-      "icon": "https://github.com/IsmaelBrandao/RizomaLaucher/blob/main/app/assets/images/SealCircle.png",
+      "icon": "https://raw.githubusercontent.com/IsmaelBrandao/RizomaLaucher/main/app/assets/images/SealCircle.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
