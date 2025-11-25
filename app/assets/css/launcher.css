@@ -4104,6 +4104,13 @@ input:checked + .toggleSwitchSlider:before {
     height: 75%;
 }
 
+#serverSelectContent img,
+#accountSelectContent img {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 #serverSelectHeader,
 #accountSelectHeader {
     font-family: 'Avenir Medium';
@@ -4201,6 +4208,10 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: var(--radius-sm);
     height: clamp(45px, 8vw, 50px);
     width: clamp(45px, 8vw, 50px);
+    object-fit: cover; /* ADICIONE - Garante que a imagem preencha */
+    background: rgba(0, 0, 0, 0.3); /* ADICIONE - Background enquanto carrega */
+    flex-shrink: 0; /* ADICIONE - Impede encolher */
+    display: block; /* ADICIONE - Garante display correto */
 }
 
 .serverListingDetails,
@@ -4749,6 +4760,7 @@ body, html, #landingContainer, #settingsContainer, #newsContainer {
         max-width: 180px;
     }
 }
+
 
 /*******************************************************************************
  *                                                                             *
