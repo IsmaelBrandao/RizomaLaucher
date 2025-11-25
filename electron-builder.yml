@@ -8,7 +8,8 @@ asar: true
 compression: 'maximum'
 
 files:
-  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+  # Adicionei !repo, !servers e !libraries do modpack aqui
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json,repo,servers,modpack}'
 
 extraResources:
   - 'libraries'
